@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tqh/mapper.UserMapper">   <!-- 命名空间，名字可以随意起，只要不冲突即可 -->
+    <!-- 对象映射，可以不写 -->
+    <!-- 查询功能，resultType 设置返回值类型 -->
+    <select id="findAll" resultType="com.tqh.Person">  <!-- 书写 SQL 语句 -->
+        SELECT * FROM Person
+    </select>
+
+    <!-- 新增功能，在SQL语句中有参数，并以实体来封装参数 -->
+    <insert id="insert" parameterType="com.tqh.Person">
+        INSERT INTO person (id,name,age) VALUES (#{id},#{name},#{age})
+    </insert>
+
+    <!-- 修改功能 -->
+    <update id="update" parameterType="com.tqh.Person">
+        UPDATE person set name=#{name},age=#{age} WHERE id = #{id}
+    </update>
+
+    <!-- 通过 ID 查询 -->
+    <select id="get" parameterType="Integer" resultType="com.tqh.Person">  <!-- 书写 SQL 语句 -->
+        SELECT * FROM person WHERE id = #{id}
+    </select>
+
+    <delete id="delete" parameterType="Integer" >  <!-- 书写 SQL 语句 -->
+        delete  FROM person WHERE id = #{id}
+    </delete>
+</mapper>
+
