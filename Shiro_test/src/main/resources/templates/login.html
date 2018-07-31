@@ -11,6 +11,7 @@
 <form action="/login" method="post">
     <h3>username: <input type="text" name="id" /></h3>
     <h3>password: <input type="password" name="psw" /></h3>
+    <p><input type="text" name="vrifyCode" />  <img alt="验证码" onclick = "this.src='/defaultKaptcha?d='+new Date()*1" src="/defaultKaptcha" /></p>
     <input type="submit" value="Submit" />
 </form>
 </body>

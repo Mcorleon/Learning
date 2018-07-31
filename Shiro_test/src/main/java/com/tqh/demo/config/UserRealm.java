@@ -22,6 +22,7 @@ public class UserRealm  extends  AbstractUserRealm{
     RoleService roleService;
     @Autowired
     PermissionService permissionService;
+
     @Override
     public UserRolesAndPermissions doGetGroupAuthorizationInfo(User userInfo) {
         Set<String> userRoles = new HashSet<>();

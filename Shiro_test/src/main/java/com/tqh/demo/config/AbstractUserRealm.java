@@ -9,6 +9,7 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.util.ByteSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -70,8 +71,10 @@ public abstract class AbstractUserRealm extends AuthorizingRealm {
         //查出是否有此用户
         User user = userService.findUserByName(token.getUsername());
         if (user != null) {
+            //盐 一般是用户名
+            ByteSource credentialsSalt = ByteSource.Util.bytes(user.getNickname());
             // 若存在，将此用户存放到登录认证info中，无需自己做密码对比，Shiro会为我们进行密码对比校验
-            return new SimpleAuthenticationInfo(user.getNickname(), user.getPswd(), getName());
+            return new SimpleAuthenticationInfo(user.getNickname(), user.getPswd(),credentialsSalt ,getName());
         }
         return null;
     }
@@ -92,5 +95,13 @@ public abstract class AbstractUserRealm extends AuthorizingRealm {
         public Set<String> getUserPermissions() {
             return userPermissions;
         }
+    }
+
+    /**
+     * 清除缓存
+     */
+    public void clearCached(){
+        PrincipalCollection principals = SecurityUtils.getSubject().getPrincipals();
+        super.clearCache(principals);
     }
 }

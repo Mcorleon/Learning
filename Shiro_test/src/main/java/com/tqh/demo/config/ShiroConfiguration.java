@@ -1,5 +1,7 @@
 package com.tqh.demo.config;
 
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
+import org.apache.shiro.cache.MemoryConstrainedCacheManager;
 import org.apache.shiro.cache.ehcache.EhCacheManager;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
@@ -52,6 +54,7 @@ public class ShiroConfiguration {
         // <!-- authc:所有url都必须认证通过才可以访问; anon:所有url都都可以匿名访问-->
         filterChainDefinitionMap.put("/login", "anon");//anon 可以理解为不拦截
         filterChainDefinitionMap.put("/403", "anon");
+        filterChainDefinitionMap.put("/defaultKaptcha", "anon");
         filterChainDefinitionMap.put("/druid/**", "anon");
         filterChainDefinitionMap.put("/static/**", "anon");
         filterChainDefinitionMap.put("/reg", "anon");
@@ -66,12 +69,36 @@ public class ShiroConfiguration {
         return shiroFilterFactoryBean;
     }
 
+    /**
+     *这个缓存要XML配置文件，比较重
+     */
     @Bean
     public EhCacheManager ehCacheManager() {
         EhCacheManager cacheManager = new EhCacheManager();
+//        cacheManager.setCacheManagerConfigFile("");
         return cacheManager;
     }
 
+    /**
+     *shiro自带的 提供内存级的缓存
+     */
+    @Bean
+    public MemoryConstrainedCacheManager memoryConstrainedCacheManager(){
+        MemoryConstrainedCacheManager memoryConstrainedCacheManager=new MemoryConstrainedCacheManager();
+        return memoryConstrainedCacheManager;
+    }
+
+    /**
+     * MD5加密配置
+     */
+    @Bean
+    public HashedCredentialsMatcher hashedCredentialsMatcher(){
+        HashedCredentialsMatcher hashedCredentialsMatcher=new HashedCredentialsMatcher();
+        hashedCredentialsMatcher.setHashAlgorithmName("MD5");
+        //加密次数
+        hashedCredentialsMatcher.setHashIterations(1024);
+        return hashedCredentialsMatcher;
+    }
     /**
      * 不指定名字的话，自动创建一个方法名第一个字母小写的bean * @Bean(name = "securityManager") * @return
      */
@@ -79,9 +106,12 @@ public class ShiroConfiguration {
     public SecurityManager securityManager(UserRealm userRealm) {
         logger.info("注入Shiro的Web过滤器-->securityManager", ShiroFilterFactoryBean.class);
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
+        //设置密码加密方法
+        userRealm.setCredentialsMatcher(hashedCredentialsMatcher());
         securityManager.setRealm(userRealm);
         //注入缓存管理器;
-        securityManager.setCacheManager(ehCacheManager());//这个如果执行多次，也是同样的一个对象;
+        //更新权限信息后，记得在service里清除缓存
+        securityManager.setCacheManager(memoryConstrainedCacheManager());//这个如果执行多次，也是同样的一个对象;
         return securityManager;
     }
 
