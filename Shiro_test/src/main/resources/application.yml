@@ -1,0 +1,34 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/shiro_test?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: HKMN8fFgGT4s23cKLt5WD6/PN0kSWzgF1o5FcCZnjh1fD5+vw4FXDiWWttFQtiq4NJK64DgVXCYechjfsUyJzA==
+    publickey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJ7GBjiihzT3GYDn2JfpqjhPJ8Opo/Nn4n9GVHCv0d2PM8DPrwAtjQ9RmpwpWFWK5ErmMDKF32Hv7JFMEaCzH9MCAwEAAQ==
+    driver-class-name: com.mysql.jdbc.Driver
+    # 下面为连接池的补充设置，应用到上面所有数据源中
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    # 配置获取连接等待超时的时间
+    maxWait: 60000
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 60000
+    # 配置一个连接在池中最小生存的时间，单位是毫秒
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙 'config'开启密码加密
+    filters: stat,wall,log4j,config
+    logSlowSql: true
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+    static-path-pattern: /static/**
+mybatis:
+  type-aliases-package: com.tqh.demo.model
