@@ -5,4 +5,5 @@ package com.tqh.command;
  * @Date: 18-8-9 16:24
  */
 public interface Order {
+    void execute();
 }
