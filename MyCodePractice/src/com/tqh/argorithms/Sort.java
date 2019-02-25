@@ -6,16 +6,16 @@ import java.util.Arrays;
 public class Sort {
     public static void main(String[] args){
         SortArgorithms sortArgorithms=new SortArgorithms();
-        int[] array={1,22,78,23,12,52,2,14,33,123,45,66,66,66};
+        int[] array={1,22,78,23,12,12,52,2,14,33,123,45,66,66,66,54,36,87};
         int[] temp=new int[array.length];
-        sortArgorithms.quickSort(array,0,array.length-1);
+        sortArgorithms.heapSort(array);
         for(int i=0;i<array.length ;i++){
             System.out.print(array[i]+" ");
         }
     }
 }
 
-class SortArgorithms{
+class  SortArgorithms{
     /**
      * 冒泡排序
      */
@@ -33,7 +33,8 @@ class SortArgorithms{
     }
     /**
      * 选择排序
-     * 和冒泡不同之处在于：冒泡每一轮比较相邻的，一轮结束后最大值被换到最后。选择排序是用当前值逐一与后面的比较，交换，选出最小。
+     * 和冒泡不同之处在于：冒泡每一轮比较相邻的，一轮结束后最大值被换到最后。
+     * 选择排序是用当前值逐一与后面的比较，交换，选出最小。
      */
     public void selectionSort(int[] array){
         int temp=0;
@@ -60,6 +61,7 @@ class SortArgorithms{
                     array[j]=array[j-1];
                     array[j-1]=temp;
                 }else {
+                    //前面都是从小到大排好的，符合就不必继续比较了
                     break;
                 }
             }
@@ -102,25 +104,17 @@ class SortArgorithms{
         //左右两组都是已排序的，再排序整合成新的一组
         while (left<=left_end&&mid<=right){
             if(array[left]<array[mid]){
-                temp[temp_pos]=array[left];
-                left++;
-                temp_pos++;
+                temp[temp_pos++]=array[left++];
             }else {
-                temp[temp_pos]=array[mid];
-                mid++;
-                temp_pos++;
+                temp[temp_pos++]=array[mid++];
             }
         }
         //以下两个while只有一个会执行，目的是把那一组剩下的元素全部加到temp后面去
         while (left<=left_end){
-            temp[temp_pos]=array[left];
-            left++;
-            temp_pos++;
+            temp[temp_pos++]=array[left++];
         }
         while (mid<=right){
-            temp[temp_pos]=array[mid];
-            mid++;
-            temp_pos++;
+            temp[temp_pos++]=array[mid++];
         }
         //把排好的temp写回原数组去
         for(int i=0;i<size ;i++){
@@ -141,6 +135,7 @@ class SortArgorithms{
             quickSort(array,pivot+1,high);
         }
     }
+
     public int partition(int[] array,int low,int high){
         int left=low;
         int right=high;
@@ -168,4 +163,49 @@ class SortArgorithms{
         array[left]=pivot_val;
         return left;
     }
+
+    /**
+     * 堆排序
+     */
+    public void heapSort(int[] array){
+        //堆是满二叉树，n/2+1~n的元素都是叶子节点,根据前面n/2个元素进行向下渗透构建即可
+        for(int i=array.length/2;i>0;i--){
+            //构建成大顶锥
+            heapAdjust(array,i,array.length);
+        }
+
+        for(int i=array.length-1;i>0;i--){
+            //把最大的元素换到最后
+            int temp;
+            temp = array[0];
+            array[0] = array[i];
+            array[i] = temp;
+            //重新调整为大顶堆
+            heapAdjust(array,1,i);
+        }
+    }
+
+    public void heapAdjust(int[] a,int s,int len){
+        int temp,i,largest; //largest中存关键字较大的记录下标
+        //节点s表示为a[s-1]，左右孩子应为a[2s-1],a[2s]
+        temp = a[s-1];
+        for(i=2*s;i<=len;i*=2){
+            //取较大孩子的下标
+            if(i<len && a[i-1]<a[i]){
+                largest = i;
+                i++;
+            }else{
+                largest = i-1;
+            }
+            //判断是否继续向下渗透
+            if(temp>=a[largest]){
+                break;
+            }else {
+                a[s-1] = a[largest];
+                s = largest+1;
+            }
+        }
+        a[s-1] = temp;
+    }
+
 }

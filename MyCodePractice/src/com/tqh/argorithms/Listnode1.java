@@ -1,7 +1,5 @@
 package com.tqh.argorithms;
 
-import org.junit.Before;
-import org.junit.Test;
 
 public class Listnode1 {
 
@@ -243,8 +241,7 @@ public class Listnode1 {
             if(i==0){
                 fastPtr=fastPtr.getNext();
                 i=1;
-            }
-            else if(i==1){
+            } else if(i==1){
                 fastPtr=fastPtr.getNext();
                 slowPtr=slowPtr.getNext();
                 i=0;
