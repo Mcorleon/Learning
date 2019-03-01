@@ -13,6 +13,7 @@ import org.apache.shiro.util.ByteSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -25,6 +26,7 @@ public abstract class AbstractUserRealm extends AuthorizingRealm {
     private static final Logger logger = LoggerFactory.getLogger(AbstractUserRealm.class);
 
     @Autowired
+    @Lazy
     private UserServiceImpl userService;
 
     //获取用户组的权限信息

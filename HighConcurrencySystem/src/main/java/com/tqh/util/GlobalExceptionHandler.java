@@ -20,39 +20,33 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(AuthorizationException.class)
     public Result AuthenticationExceptionHandler(AuthorizationException e){
-        logger.error("权限错误");
-        logger.error(e.getMessage());
+        logger.error("权限错误",e);
         return  Result.PERMISSION_ERR;
     }
 
     @ExceptionHandler(UnknownAccountException.class)
     public Result AUnknownAccountExceptionHandler(UnknownAccountException e){
-        logger.error("未知用户");
-        logger.error(e.getMessage());
+        logger.error("未知用户",e);
         return  Result.UNKONWN_USER_ERR;
     }
     @ExceptionHandler(IncorrectCredentialsException.class)
     public Result IncorrectCredentialsExceptionHandler(IncorrectCredentialsException e){
-        logger.error("校验出错");
-        logger.error(e.getMessage());
+        logger.error("校验出错",e);
         return  Result.INCORRECT_PSW_ERR;
     }
     @ExceptionHandler(LockedAccountException.class)
     public Result LockedAccountExceptionHandler(LockedAccountException e){
-        logger.error("账户已锁定");
-        logger.error(e.getMessage());
+        logger.error("账户已锁定",e);
         return  Result.LOCK_ERR;
     }
     @ExceptionHandler(ExcessiveAttemptsException.class)
     public Result ExcessiveAttemptsExceptionHandler(ExcessiveAttemptsException e){
-        logger.error("错误次数过多");
-        logger.error(e.getMessage());
+        logger.error("错误次数过多",e);
         return  Result.EXCESSIVE_ERR;
     }
     @ExceptionHandler(Exception.class)
     public Result ExceptionHandler(Exception e){
-        logger.error("其他错误");
-        logger.error(e.getMessage());
+        logger.error("其他错误",e);
         return  Result.OTHER_ERR;
     }
 

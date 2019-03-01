@@ -10,7 +10,7 @@ import javax.annotation.Resource;
  * @Author Mcorleon
  * @Date 2019/2/21 19:15
  */
-public class SnowFlake {
+ public class SnowFlake {
     // 起始的时间戳
     private final static long START_STMP = 1480166465631L;
     // 每一部分占用的位数，就三个

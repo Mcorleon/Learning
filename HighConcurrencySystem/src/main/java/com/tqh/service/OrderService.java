@@ -12,4 +12,8 @@ public interface OrderService {
      Result generateOrder(String miaosha_id, String nickName, int goods_num, String address_id);
 
     Map<String, Object> getOrderVoByUid(String uid);
+
+    String getMiaoshaState(String nickName, String miaosha_id);
+
+    void dealOrderMessage(String miaosha_id, String nickName, int goods_num, String address_id) throws Exception;
 }

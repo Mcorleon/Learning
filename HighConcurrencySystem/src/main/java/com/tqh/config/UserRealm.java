@@ -7,6 +7,7 @@ import com.tqh.model.User;
 import com.tqh.service.impl.PermissionServiceImpl;
 import com.tqh.service.impl.RoleSeriveImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 import java.util.HashSet;
@@ -18,6 +19,7 @@ public class UserRealm  extends  AbstractUserRealm{
 
     @Autowired
     RoleSeriveImpl roleService;
+
     @Autowired
     PermissionServiceImpl permissionService;
 

@@ -4,6 +4,7 @@ import com.tqh.model.Address;
 import com.tqh.model.User;
 import com.tqh.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -27,6 +28,10 @@ public class UserController {
         return user;
     }
 
+    /**
+     *QPS:400
+     * 500*10
+     */
     @RequestMapping("/getAddressByNickName")
     public List<Address> getAddressByNickName(String nickName){
         List<Address> list=userService.getAddressByNickName(nickName);

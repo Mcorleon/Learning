@@ -24,6 +24,6 @@ public interface GoodsMapper {
     @Select("SELECT tm.id,tg.name,tg.img,tm.goods_id,tm.start_time,tm.end_time,tg.price,tm.miaosha_price,tg.stock FROM tb_goods tg,tb_miaosha_goods tm WHERE tm.id=#{id} AND tm.goods_id=tg.id")
     MiaoshaGoodsVo getMiaoshaGoodByID(String id);
 
-    @Update("UPDATE tb_goods tg SET tg.stock=tg.stock-1 WHERE tg.id=#{goods_id}")
-    void decreaseStock(String goods_id);
+    @Update("UPDATE tb_goods tg SET tg.stock=tg.stock-1 WHERE tg.id=#{goods_id} AND tg.stock>0")
+    boolean decreaseStock(String goods_id);
 }

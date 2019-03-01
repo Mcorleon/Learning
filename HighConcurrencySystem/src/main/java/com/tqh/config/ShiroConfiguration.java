@@ -1,19 +1,34 @@
 package com.tqh.config;
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.PropertyAccessor;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
-import org.apache.shiro.cache.MemoryConstrainedCacheManager;
-import org.apache.shiro.cache.ehcache.EhCacheManager;
+
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
+import org.crazycake.shiro.RedisCacheManager;
+import org.crazycake.shiro.RedisManager;
+import org.crazycake.shiro.RedisSessionDAO;
+import org.crazycake.shiro.serializer.RedisSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
+import org.springframework.data.redis.connection.RedisConnectionFactory;
+
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -24,6 +39,7 @@ import java.util.Map;
  */
 
 @Configuration
+@EnableCaching
 public class ShiroConfiguration {
     private static final Logger logger = LoggerFactory.getLogger(ShiroConfiguration.class);
 
@@ -53,7 +69,6 @@ public class ShiroConfiguration {
         // <!-- 过滤链定义，从上向下顺序执行，一般将 /**放在最为下边 -->:这是一个坑呢，一不小心代码就不好使了;
         // <!-- authc:所有url都必须认证通过才可以访问; anon:所有url都都可以匿名访问-->
         filterChainDefinitionMap.put("/login", "anon");//anon 可以理解为不拦截
-        filterChainDefinitionMap.put("/order/getOrderVoByUid", "anon");//anon 可以理解为不拦截
         filterChainDefinitionMap.put("/403", "anon");
         filterChainDefinitionMap.put("/error", "anon");
         filterChainDefinitionMap.put("/druid/**", "anon");
@@ -63,31 +78,65 @@ public class ShiroConfiguration {
         filterChainDefinitionMap.put("/pages/**", "anon");
         filterChainDefinitionMap.put("/api/**", "anon");
         filterChainDefinitionMap.put("/dists/img/*", "anon");
-        filterChainDefinitionMap.put("/**", "authc");//表示需要认证才可以访问
+        //表示需要认证才可以访问,测试接口时记得关掉
+        filterChainDefinitionMap.put("/**", "authc");
 
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
 
         return shiroFilterFactoryBean;
     }
 
+
     /**
-     *这个缓存要XML配置文件，比较重
+     * cacheManager 缓存 redis实现
+     * 使用的是shiro-redis开源插件
+     *
+     * @return
      */
-    @Bean
-    public EhCacheManager ehCacheManager() {
-        EhCacheManager cacheManager = new EhCacheManager();
-//        cacheManager.setCacheManagerConfigFile("");
-        return cacheManager;
+    public RedisCacheManager cacheManager() {
+        RedisCacheManager redisCacheManager = new RedisCacheManager();
+        redisCacheManager.setRedisManager(redisManager());
+        return redisCacheManager;
     }
 
     /**
-     *shiro自带的 提供内存级的缓存
+     * 配置shiro redisManager
+     * 使用的是shiro-redis开源插件
+     *
+     * @return
+     */
+    public RedisManager redisManager() {
+        RedisManager redisManager = new RedisManager();
+        redisManager.setHost("localhost");
+        redisManager.setPort(6379);
+        redisManager.setTimeout(0);
+        return redisManager;
+    }
+
+    /**
+     * Session Manager
+     * 使用的是shiro-redis开源插件
      */
     @Bean
-    public MemoryConstrainedCacheManager memoryConstrainedCacheManager(){
-        MemoryConstrainedCacheManager memoryConstrainedCacheManager=new MemoryConstrainedCacheManager();
-        return memoryConstrainedCacheManager;
+    public DefaultWebSessionManager sessionManager() {
+        DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
+        //设置session过期时间
+//        sessionManager.setGlobalSessionTimeout(10000);
+        sessionManager.setSessionDAO(redisSessionDAO());
+        return sessionManager;
     }
+
+    /**
+     * RedisSessionDAO shiro sessionDao层的实现 通过redis
+     * 使用的是shiro-redis开源插件
+     */
+    @Bean
+    public RedisSessionDAO redisSessionDAO() {
+        RedisSessionDAO redisSessionDAO = new RedisSessionDAO();
+        redisSessionDAO.setRedisManager(redisManager());
+        return redisSessionDAO;
+    }
+
 
     /**
      * MD5加密配置
@@ -104,17 +153,19 @@ public class ShiroConfiguration {
      * 不指定名字的话，自动创建一个方法名第一个字母小写的bean * @Bean(name = "securityManager") * @return
      */
     @Bean
-    public SecurityManager securityManager(UserRealm userRealm) {
+    public SecurityManager securityManager(UserRealm userRealm,StringRedisTemplate template) {
         logger.info("注入Shiro的Web过滤器-->securityManager", ShiroFilterFactoryBean.class);
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         //设置密码加密方法
         userRealm.setCredentialsMatcher(hashedCredentialsMatcher());
         securityManager.setRealm(userRealm);
+        //注入session管理器;
+        securityManager.setSessionManager(sessionManager());
         //注入缓存管理器;
-        //更新权限信息后，记得在service里清除缓存
-        securityManager.setCacheManager(memoryConstrainedCacheManager());//这个如果执行多次，也是同样的一个对象;
+        securityManager.setCacheManager(cacheManager());
         return securityManager;
     }
+
 
     /**
      * Shiro生命周期处理器 * @return

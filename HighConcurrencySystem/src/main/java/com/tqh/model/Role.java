@@ -1,6 +1,8 @@
 package com.tqh.model;
 
-public class Role {
+import java.io.Serializable;
+
+public class Role implements Serializable {
   private Long id;
   private String name;
 

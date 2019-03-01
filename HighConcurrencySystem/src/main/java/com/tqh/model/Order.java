@@ -2,9 +2,10 @@ package com.tqh.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+import java.io.Serializable;
 import java.util.Date;
+public class Order implements Serializable{
 
-public class Order {
   private String id;
   private String user_id;
   private String goods_id;
@@ -12,6 +13,7 @@ public class Order {
   private String goods_name;
   private Long goods_num;
   private Double good_price;
+
   //0:未支付 1：待发货 2:已发货 3：已收货 4：已取消 5：已完成
   private int state;
   @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")

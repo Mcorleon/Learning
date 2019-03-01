@@ -51,7 +51,35 @@ $(function () {
                 }
             }
         });
+        //查询秒杀反馈状态
+        function getMiaoshaState(nickName,miaosha_id) {
+            $.ajax({
+                type: "post",
+                url: "/order/getMiaoshaState",
+                data: {nickName: nickName,miaosha_id:miaosha_id},
+                dataType: "json",
+                success: function (data) {
+                    if(data==0){
+                        //还在排队
+                        setTimeout(getMiaoshaState(nickName,miaosha_id),500);
+                    }else if(data==1){
+                        //成功
+                        window.location.href="/order_list";
 
+                    }else{
+                        layer.alert("购买失败",function () {
+                            history.go(-1);
+                        });
+                    }
+                },
+                error: function () {
+                    layer.alert("请稍后再试",function () {
+                        history.go(-1);
+                    });
+                    console.log("ajax error");
+                }
+            });
+        }
         form.on('submit(ok)', function (data) {
             var nickName = $("#nickname").html().trim();
             var goods_num = $("#goods_num").html().trim();
@@ -67,7 +95,8 @@ $(function () {
                 success: function (data) {
                     console.log(data);
                     if(data.code==200){
-                        window.location.href="/order_list";
+                        layer.load(0);
+                        getMiaoshaState(nickName,miaosha_id)
                     }else {
                         layer.alert(data.msg,function () {
                             history.go(-1);
@@ -121,3 +150,4 @@ function getUrlParam(name) {
     if (r != null) return unescape(r[2]);
     return null; //返回参数值
 }
+

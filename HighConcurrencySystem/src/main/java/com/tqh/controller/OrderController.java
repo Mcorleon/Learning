@@ -24,9 +24,10 @@ public class OrderController {
     /**
      *QPS: 447
      * 1000*10
+     * rabbitMQ+接口优化后600
      */
     @RequestMapping("/generateOrder")
-    public Result generateOrder(String nickName, String miaosha_id, int goods_num, String address_id){
+    public Result generateOrder(String nickName, String miaosha_id, int goods_num, String address_id) {
         return orderService.generateOrder(miaosha_id,nickName,goods_num,address_id);
     }
 
@@ -40,5 +41,11 @@ public class OrderController {
         Map<String, Object> map = orderService.getOrderVoByUid(uid);
         return JsonTool.objectToJson(map);
     }
+    @RequestMapping("/getMiaoshaState")
+    public String getMiaoshaState(String nickName,String miaosha_id){
+        return orderService.getMiaoshaState(nickName,miaosha_id);
+
+    }
+
 
 }

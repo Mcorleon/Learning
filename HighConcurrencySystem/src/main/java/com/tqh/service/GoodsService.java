@@ -17,5 +17,5 @@ public interface GoodsService {
 
     MiaoshaGoodsVo getMiaoshaGoodByID(String id);
 
-    void decreaseStock(String goods_id);
+    boolean decreaseStock(String goods_id);
 }

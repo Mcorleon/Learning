@@ -1,6 +1,8 @@
 package com.tqh.model;
 
-public class Goods {
+import java.io.Serializable;
+
+public class Goods implements Serializable {
   private String id;
   private String name;
   private String title;

@@ -104,6 +104,19 @@
 			<artifactId>jetty-util</artifactId>
 			<version>6.1.8</version>
 		</dependency>
+		<!--rabbitmq消息队列-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+
+		<!--</dependency>-->
+		<!-- shiro-redis -->
+		<dependency>
+			<groupId>org.crazycake</groupId>
+			<artifactId>shiro-redis</artifactId>
+			<version>3.1.0</version>
+		</dependency>
 	</dependencies>
 
 </project>

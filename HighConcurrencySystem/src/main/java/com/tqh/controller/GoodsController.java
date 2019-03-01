@@ -4,8 +4,10 @@ import com.github.pagehelper.PageHelper;
 import com.tqh.model.Goods;
 import com.tqh.model.MiaoshaGoodsVo;
 import com.tqh.service.impl.GoodsServiceImpl;
+import com.tqh.service.impl.OrderServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -39,6 +41,12 @@ public class GoodsController {
     @RequestMapping("/getMiaoshaGoodByID")
     public MiaoshaGoodsVo getMiaoshaGoodByID(String id){
         return   goodsService.getMiaoshaGoodByID(id);
+
+    }
+    @RequestMapping("/reset")
+    public String reset(String id){
+        OrderServiceImpl.HAS_STOCK.clear();
+        return "sucess";
 
     }
 }

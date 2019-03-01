@@ -9,6 +9,8 @@ import com.tqh.model.MiaoshaGoodsVo;
 import com.tqh.service.GoodsService;
 import com.tqh.util.JsonTool;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -23,6 +25,7 @@ import java.util.Map;
  * @Date 2019/2/21 20:16
  */
 @Service
+@CacheConfig(cacheNames = "goods")
 public class GoodsServiceImpl implements GoodsService {
     @Autowired
     GoodsMapper goodsMapper;
@@ -57,7 +60,7 @@ public class GoodsServiceImpl implements GoodsService {
 
     @Override
     @Transactional
-    public void decreaseStock(String goods_id) {
-        goodsMapper.decreaseStock(goods_id);
+    public boolean decreaseStock(String goods_id) {
+        return goodsMapper.decreaseStock(goods_id);
     }
 }

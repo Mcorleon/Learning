@@ -2,9 +2,10 @@ package com.tqh.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class MiaoshaGoodsVo{
+public class MiaoshaGoodsVo implements Serializable{
   private String id;
   private String goods_id;
   private String name;

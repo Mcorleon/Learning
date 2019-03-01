@@ -1,6 +1,8 @@
 package com.tqh.model;
 
-public class Permission {
+import java.io.Serializable;
+
+public class Permission implements Serializable {
   private Long id;
   private String name;
 

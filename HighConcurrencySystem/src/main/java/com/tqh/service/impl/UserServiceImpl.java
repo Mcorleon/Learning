@@ -16,6 +16,8 @@ import org.apache.shiro.web.util.WebUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.util.StringUtils;
@@ -30,6 +32,7 @@ import java.util.concurrent.TimeUnit;
  * @Date 2019/2/20 16:35
  */
 @Service
+@CacheConfig(cacheNames = "users")
 public class UserServiceImpl implements UserSerive {
     private static final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
     private static ObjectMapper MAPPER = new ObjectMapper();
@@ -39,6 +42,7 @@ public class UserServiceImpl implements UserSerive {
     @Autowired
     StringRedisTemplate redisTemplate;
     @Override
+    @Cacheable(key ="'userInfo'+#p0")
     public User findUserByName(String name) {
         return userMapper.findByLoginName(name);
     }
@@ -100,11 +104,14 @@ public class UserServiceImpl implements UserSerive {
     }
 
     @Override
+    @Cacheable(key ="'addressList'+#p0")
     public List<Address> getAddressByNickName(String nickName) {
+        System.out.println("查询地址");
         return userMapper.getAddressByNickName(nickName);
     }
 
     @Override
+    @Cacheable(key ="'addressInfo'+#p0")
     public Address getAddressByAddressID(String address_id) {
         return userMapper.getAddressByAddressID(address_id);
     }

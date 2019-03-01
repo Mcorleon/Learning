@@ -2,15 +2,8 @@ package com.tqh.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tqh.model.Result;
-import com.tqh.model.User;
+import com.tqh.service.MQSender;
 import com.tqh.service.impl.UserServiceImpl;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.authz.annotation.RequiresRoles;
-import org.apache.shiro.subject.Subject;
-import org.apache.shiro.web.util.SavedRequest;
-import org.apache.shiro.web.util.WebUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import java.io.IOException;
 
 /**
  * @Author Mcorleon
@@ -36,6 +28,9 @@ public class MainController {
     StringRedisTemplate redisTemplate;
     @Autowired
     UserServiceImpl userService;
+    @Autowired
+    MQSender sender;
+
     @PostMapping("/login")
     @ResponseBody
     public Result Login(String uid, String psw, HttpServletRequest request){
@@ -49,6 +44,7 @@ public class MainController {
     public String goods(){
         return "goods_list";
     }
+
     @RequestMapping("/miaoshaGoods")
     public String miaoshaGoods(){
         return "miaoshaGoods";
