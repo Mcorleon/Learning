@@ -5,6 +5,7 @@ import com.tqh.model.Goods;
 import com.tqh.model.MiaoshaGoodsVo;
 import com.tqh.service.impl.GoodsServiceImpl;
 import com.tqh.service.impl.OrderServiceImpl;
+import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Repository;
@@ -22,7 +23,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/goods")
-public class GoodsController {
+public class GoodsController implements InitializingBean{
     @Autowired
     GoodsServiceImpl goodsService;
 
@@ -48,5 +49,10 @@ public class GoodsController {
         OrderServiceImpl.HAS_STOCK.clear();
         return "sucess";
 
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        System.out.println("将所有库存加入redis缓存");
     }
 }
