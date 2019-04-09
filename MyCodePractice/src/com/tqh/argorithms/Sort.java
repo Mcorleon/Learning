@@ -8,7 +8,7 @@ public class Sort {
         SortArgorithms sortArgorithms=new SortArgorithms();
         int[] array={1,22,78,23,12,12,52,2,14,33,123,45,66,66,66,54,36,87};
         int[] temp=new int[array.length];
-        sortArgorithms.heapSort(array);
+        sortArgorithms.quickSort(array,0,array.length-1);
         for(int i=0;i<array.length ;i++){
             System.out.print(array[i]+" ");
         }
@@ -127,20 +127,18 @@ class  SortArgorithms{
      * 快速排序
      * 越接近无序效率越高
      */
-    public void quickSort(int[] array,int low,int high){
+    public void quickSort(int[] array,int left,int right){
         int pivot;
-        if(low<high){
-            pivot=partition(array,low,high);
-            quickSort(array,low,pivot-1);
-            quickSort(array,pivot+1,high);
+        if(left<right){
+            pivot=partition(array,left,right);
+            quickSort(array,left,pivot-1);
+            quickSort(array,pivot+1,right);
         }
     }
 
-    public int partition(int[] array,int low,int high){
-        int left=low;
-        int right=high;
+    public int partition(int[] array,int left,int right){
         //基准值默认是第一个坑位
-        int pivot_val=array[low];
+        int pivot_val=array[left];
         while (left<right){
             //从右往左找小于基准值的值
             while (array[right]>pivot_val&&left<right){

@@ -8,19 +8,34 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class Test {
-    public static void main(String[] args) throws UnsupportedEncodingException {
-        String s="I am 君山";
-        byte[] bytes=s.getBytes("ISO-8859-1");
-        char[] chars=s.toCharArray();
-//        for(int i=0;i<bytes.length ;i++){
-//
-//            System.out.print(Integer.toHexString(bytes[i]));
-//        }
-        for(int i=0;i<chars.length ;i++){
-            System.out.print(Integer.toHexString(chars[i]));
+    static volatile int num=0;
+    public static void main(String[] args) {
+        new Thread(new Add()
+        ).start();
+        new Thread(new Add()
+        ).start();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-
+        System.out.println(num);
     }
 
 
+}
+
+class Add implements Runnable{
+
+    @Override
+    public void run() {
+        for(int i=0;i<500;i++){
+            try {
+                Thread.sleep(2);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            Test.num++;
+        }
+    }
 }

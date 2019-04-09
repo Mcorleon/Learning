@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/tqh/argorithms/BigNumberAddition.java" line="27" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6051cdb9-7601-4815-bd9a-2ae65a3b4f66" name="Default" comment="" />
+    <list default="true" id="079c6eba-931f-4f71-a625-070d67701968" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,239 +25,113 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="MyCodePractice" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Sort.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="208" column="5" lean-forward="true" selection-start-line="166" selection-start-column="4" selection-end-line="208" selection-end-column="5" />
+            <state relative-caret-position="115">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-=======
-      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/container/Test1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="AAA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/thinkinginjava/AAA.java">
+      <file leaf-file-name="Main1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-=======
-      <file leaf-file-name="DataSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/work/DataSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+            <state relative-caret-position="230">
+              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/util/PriorityQueue.java">
+      <file leaf-file-name="Main4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="711" column="17" lean-forward="false" selection-start-line="711" selection-start-column="17" selection-end-line="711" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#32360#0" expanded="false" />
-                <element signature="e#4277#4278#0" expanded="false" />
-                <element signature="e#4329#4330#0" expanded="false" />
-                <element signature="e#4748#4749#0" expanded="false" />
-                <element signature="e#4791#4792#0" expanded="false" />
-                <element signature="e#5256#5257#0" expanded="false" />
-                <element signature="e#5314#5315#0" expanded="false" />
-                <element signature="e#12969#12970#0" expanded="false" />
-                <element signature="e#13025#13026#0" expanded="false" />
-                <element signature="e#14861#14862#0" expanded="false" />
-                <element signature="e#14900#14901#0" expanded="false" />
-                <element signature="e#15477#15478#0" expanded="false" />
-                <element signature="e#15526#15527#0" expanded="false" />
-                <element signature="e#18065#18066#0" expanded="false" />
-                <element signature="e#18097#18098#0" expanded="false" />
-                <element signature="e#21183#21184#0" expanded="false" />
-                <element signature="e#21210#21211#0" expanded="false" />
-                <element signature="e#26782#26783#0" expanded="false" />
-                <element signature="e#26815#26816#0" expanded="false" />
-                <element signature="e#28862#28863#0" expanded="false" />
-                <element signature="e#28932#28933#0" expanded="false" />
-                <element signature="e#32159#32160#0" expanded="false" />
-                <element signature="e#32217#32218#0" expanded="false" />
-                <element signature="e#32257#32258#0" expanded="false" />
-                <element signature="e#32350#32351#0" expanded="false" />
-              </folding>
-=======
-      <file leaf-file-name="RelativeSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/work/RelativeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="621">
+              <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
               <folding />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/thinkinginjava/Test1.java">
+      <file leaf-file-name="Main5.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#523#524#0" expanded="false" />
-                <element signature="e#566#567#0" expanded="false" />
-                <element signature="e#671#672#0" expanded="false" />
-                <element signature="e#697#698#0" expanded="false" />
-                <element signature="e#758#759#0" expanded="false" />
-                <element signature="e#805#806#0" expanded="false" />
-=======
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/work/Test.java">
+            <state relative-caret-position="128">
+              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main6.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="184">
+              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Listnode1Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1Test.java">
+      <file leaf-file-name="Main7.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-=======
-      <file leaf-file-name="Test4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/Test4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+            <state relative-caret-position="437">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Listnode1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1.java">
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+            <state relative-caret-position="2323">
+              <caret line="143" column="29" lean-forward="false" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
               <folding>
-                <element signature="e#7629#7630#0" expanded="false" />
-                <element signature="e#7661#7662#0" expanded="false" />
-                <element signature="e#7689#7690#0" expanded="false" />
-                <element signature="e#7716#7717#0" expanded="false" />
-                <element signature="e#7753#7754#0" expanded="false" />
-                <element signature="e#7785#7786#0" expanded="false" />
-                <element signature="e#7818#7819#0" expanded="false" />
-                <element signature="e#7845#7846#0" expanded="false" />
-                <element signature="e#7887#7888#0" expanded="false" />
-                <element signature="e#7919#7920#0" expanded="false" />
+                <element signature="e#5027#5028#0" expanded="true" />
+                <element signature="e#5098#5099#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AmphibianTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/thinkinginjava/AmphibianTest.java">
+      <file leaf-file-name="DualPivotQuicksort.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/util/DualPivotQuicksort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="1909">
+              <caret line="106" column="16" lean-forward="false" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
               <folding />
-=======
-      <file leaf-file-name="CountDownLatchTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/CountDownLatchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding>
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-              </folding>
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/work/Test.java">
+      <file leaf-file-name="Main2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="false" />
-=======
-      <file leaf-file-name="CyclicBarrierTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/CyclicBarrierTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="230">
+              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SemaphoreTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/SemaphoreTest.java">
+      <file leaf-file-name="Main3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding>
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSort.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/com/tqh/work/DataSort.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Serch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <marker date="1543216147477" expanded="true" signature="330:705" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -276,24 +153,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/tqh/argorithms/WWW.java" />
-        <option value="$PROJECT_DIR$/src/com/tqh/argorithms/EightQueen.java" />
-        <option value="$PROJECT_DIR$/src/com/tqh/container/Test1.java" />
-        <option value="$PROJECT_DIR$/src/com/tqh/work/RelativeSort.java" />
+        <option value="$PROJECT_DIR$/src/data/RSSI2013-05-11-015916.txt" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/com/tqh/work/Test.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1Test.java" />
-        <option value="$PROJECT_DIR$/src/com/tqh/thinkinginjava/AmphibianTest.java" />
-        <option value="$PROJECT_DIR$/src/com/tqh/thinkinginjava/Test1.java" />
-        <option value="$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1.java" />
-        <option value="$PROJECT_DIR$/src/com/tqh/thinkinginjava/AAA.java" />
-        <option value="$PROJECT_DIR$/src/com/tqh/argorithms/Serch.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/argorithms/BigNumberAddition.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/work/work/DataSort.java" />
+        <option value="$PROJECT_DIR$/src/data/RSSI_MAG.txt" />
+        <option value="$PROJECT_DIR$/src/com/tqh/work/DealMagData.java" />
         <option value="$PROJECT_DIR$/src/com/tqh/argorithms/Sort.java" />
-=======
-        <option value="$PROJECT_DIR$/src/com/tqh/thread/CountDownLatchTest.java" />
-        <option value="$PROJECT_DIR$/src/com/tqh/thread/CyclicBarrierTest.java" />
-        <option value="$PROJECT_DIR$/src/com/tqh/thread/SemaphoreTest.java" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+        <option value="$PROJECT_DIR$/src/com/tqh/work/DealData.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/work/DealRawAccGryoData.java" />
+        <option value="$PROJECT_DIR$/src/data/rawData_acc_gryo.txt" />
+        <option value="$PROJECT_DIR$/src/com/tqh/socket/ClientKeyBoardListener.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/socket/ClientMessageLisener.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/socket/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/socket/Server.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/socket/MessageHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/thinkinginjava/AmphibianTest.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/thinkinginjava/Holder.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/argorithms/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/argorithms/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/contest/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/contest/Main1.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/contest/Main2.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/contest/Main3.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/contest/Main4.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/contest/Main7.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/contest/Main6.java" />
+        <option value="$PROJECT_DIR$/src/com/tqh/contest/Main5.java" />
       </list>
     </option>
   </component>
@@ -302,18 +189,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Program Files\apache-maven-3.5.2\repository" />
-        <option name="mavenHome" value="C:/Program Files/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.5.2\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
@@ -336,9 +211,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
-<<<<<<< HEAD
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -401,33 +275,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thinkinginjava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test3.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tqh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkinginjava" />
+              <option name="myItemId" value="io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,297 +297,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thinkinginjava" />
+              <option name="myItemId" value="contest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test1.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tqh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="array" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tqh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sort.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tqh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Serch.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tqh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyCodePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tqh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Listnode1.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-=======
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tqh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tqh" type="462c0819:PsiDirectoryNode" />
-              <item name="argorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tqh" type="462c0819:PsiDirectoryNode" />
-              <item name="argorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Serch.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tqh" type="462c0819:PsiDirectoryNode" />
-              <item name="argorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tqh" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tqh" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="CountDownLatchTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tqh" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="CyclicBarrierTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tqh" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="SemaphoreTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tqh" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCodePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="MyCodePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="D:/材料/hadoop/hadoop/hadoop/paperClassify" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HighConcurrencySystem" />
     <property name="js.eslint.eslintPackage" value="" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;ArrayL&#9;PSI&#9;JAVA://java.util.ArrayList" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Workspace\Learning\MyCodePractice\src\com\tqh\thread" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaWebProject\Learning\MyCodePractice\src\data" />
     </key>
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tqh.work" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaWebProject\Learning\MyCodePractice\src\data" />
+      <recent name="E:\JavaWebProject\Learning\MyCodePractice\src\com\tqh\work" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.Sort">
-    <configuration default="false" name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main7">
+    <configuration default="false" name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tqh.argorithms.*" />
+          <option name="PATTERN" value="com.tqh.contest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tqh.argorithms.Sort" />
-=======
-  <component name="RunManager" selected="Application.SemaphoreTest">
-    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tqh.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tqh.thread.CountDownLatchTest" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.Main2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -752,25 +346,14 @@
       <envs />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="RelativeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tqh.work.*" />
+          <option name="PATTERN" value="com.tqh.contest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tqh.work.RelativeSort" />
-=======
-    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tqh.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tqh.thread.CyclicBarrierTest" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.Main3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -783,25 +366,14 @@
       <envs />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tqh.work.*" />
+          <option name="PATTERN" value="com.tqh.contest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tqh.work.Test" />
-=======
-    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tqh.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tqh.thread.SemaphoreTest" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.Main5" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -814,18 +386,14 @@
       <envs />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="Serch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="Serch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+    <configuration default="false" name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tqh.argorithms.*" />
+          <option name="PATTERN" value="com.tqh.contest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tqh.argorithms.Serch" />
+      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.Main6" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -838,25 +406,14 @@
       <envs />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="AAA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tqh.thinkinginjava.*" />
+          <option name="PATTERN" value="com.tqh.contest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tqh.thinkinginjava.AAA" />
-=======
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tqh.work.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tqh.work.Test" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.Main7" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1250,89 +807,44 @@
       <method />
     </configuration>
     <list size="5">
-<<<<<<< HEAD
-      <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RelativeSort" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Serch" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AAA" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main3" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main5" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main6" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main7" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Serch" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AAA" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RelativeSort" />
-=======
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Serch" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CountDownLatchTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CyclicBarrierTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CyclicBarrierTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CountDownLatchTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Serch" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+        <item index="0" class="java.lang.String" itemvalue="Application.Main7" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main6" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main5" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main3" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6051cdb9-7601-4815-bd9a-2ae65a3b4f66" name="Default" comment="" />
-      <created>1517472676086</created>
+      <changelist id="079c6eba-931f-4f71-a625-070d67701968" name="Default" comment="" />
+      <created>1553002046909</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1517472676086</updated>
-      <workItem from="1517472680811" duration="90000" />
-      <workItem from="1517472811639" duration="2493000" />
-      <workItem from="1517554830070" duration="1498000" />
-      <workItem from="1517901049605" duration="23157000" />
-      <workItem from="1518077930408" duration="25000" />
-      <workItem from="1518090573134" duration="3220000" />
-      <workItem from="1518161322808" duration="1944000" />
-      <workItem from="1518249082341" duration="10235000" />
-      <workItem from="1518331525268" duration="7097000" />
-      <workItem from="1518674222628" duration="358000" />
-      <workItem from="1518693534820" duration="11000" />
-      <workItem from="1519456131281" duration="3757000" />
-      <workItem from="1519644834960" duration="1296000" />
-      <workItem from="1519803176583" duration="428000" />
-      <workItem from="1519803662425" duration="2706000" />
-      <workItem from="1519818592038" duration="3084000" />
-      <workItem from="1520059437083" duration="2580000" />
-      <workItem from="1520331718603" duration="24000" />
-      <workItem from="1523362838437" duration="157000" />
-      <workItem from="1527063881202" duration="2167000" />
-      <workItem from="1527140815341" duration="726000" />
-      <workItem from="1527505114179" duration="35000" />
-      <workItem from="1529319398443" duration="839000" />
-      <workItem from="1529373267551" duration="1609000" />
-      <workItem from="1531750771575" duration="17000" />
-<<<<<<< HEAD
-      <workItem from="1540866488706" duration="8534000" />
-      <workItem from="1542090821851" duration="5420000" />
-      <workItem from="1543058091506" duration="12643000" />
-=======
-      <workItem from="1548760839307" duration="3032000" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+      <updated>1553002046909</updated>
+      <workItem from="1553002048504" duration="4067000" />
+      <workItem from="1553309148436" duration="8467000" />
+      <workItem from="1553673628708" duration="45863000" />
+      <workItem from="1554703390393" duration="61000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="96150000" />
-=======
-    <option name="totallyTimeSpent" value="72585000" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+    <option name="totallyTimeSpent" value="58458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1348,48 +860,34 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3533409" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23390558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3536184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21351932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1400,9 +898,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
       <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
@@ -1412,235 +907,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/EightQueen.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/work/DealData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
+        <state relative-caret-position="1127">
+          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/container/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/data/dataResult.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-<<<<<<< HEAD
-=======
-          <folding />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="77" column="20" lean-forward="true" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3384">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/EightQueen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/container/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3384">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/EightQueen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/container/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/WWW.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/container/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/EightQueen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3384">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/WWW.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/container/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/EightQueen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/WWW.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/EightQueen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2358">
-          <caret line="132" column="5" lean-forward="false" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/container/Text2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/array/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/container/Test3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Comparator.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/data/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/hhh.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1649,305 +937,323 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tqh/work/RelativeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="92">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/work/DataSort.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="368">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/container/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/proxy/SimpleProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/proxy/SimpleProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/BigNumberAddition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/hhh.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Integer.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/work/Test.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tqh/work/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="506">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/com/tqh/work/DataSort.class">
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/work/DataSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="874">
+          <caret line="38" column="97" lean-forward="false" selection-start-line="38" selection-start-column="97" selection-end-line="38" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1Test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/work/work/RelativeSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/work/work/DealData.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/work/work/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/work/work/DataSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/work/DealMagData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thinkinginjava/AmphibianTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thinkinginjava/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#566#567#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#697#698#0" expanded="false" />
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#805#806#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Listnode1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-<<<<<<< HEAD
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-          <folding>
-            <element signature="e#7629#7630#0" expanded="false" />
-            <element signature="e#7661#7662#0" expanded="false" />
-            <element signature="e#7689#7690#0" expanded="false" />
-            <element signature="e#7716#7717#0" expanded="false" />
-            <element signature="e#7753#7754#0" expanded="false" />
-            <element signature="e#7785#7786#0" expanded="false" />
-            <element signature="e#7818#7819#0" expanded="false" />
-            <element signature="e#7845#7846#0" expanded="false" />
-            <element signature="e#7887#7888#0" expanded="false" />
-            <element signature="e#7919#7920#0" expanded="false" />
-          </folding>
-=======
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
->>>>>>> 5309d6db90f4cd0688a1509eb564caebab1b4eaf
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="711" column="17" lean-forward="false" selection-start-line="711" selection-start-column="17" selection-end-line="711" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#32360#0" expanded="false" />
-            <element signature="e#4277#4278#0" expanded="false" />
-            <element signature="e#4329#4330#0" expanded="false" />
-            <element signature="e#4748#4749#0" expanded="false" />
-            <element signature="e#4791#4792#0" expanded="false" />
-            <element signature="e#5256#5257#0" expanded="false" />
-            <element signature="e#5314#5315#0" expanded="false" />
-            <element signature="e#12969#12970#0" expanded="false" />
-            <element signature="e#13025#13026#0" expanded="false" />
-            <element signature="e#14861#14862#0" expanded="false" />
-            <element signature="e#14900#14901#0" expanded="false" />
-            <element signature="e#15477#15478#0" expanded="false" />
-            <element signature="e#15526#15527#0" expanded="false" />
-            <element signature="e#18065#18066#0" expanded="false" />
-            <element signature="e#18097#18098#0" expanded="false" />
-            <element signature="e#21183#21184#0" expanded="false" />
-            <element signature="e#21210#21211#0" expanded="false" />
-            <element signature="e#26782#26783#0" expanded="false" />
-            <element signature="e#26815#26816#0" expanded="false" />
-            <element signature="e#28862#28863#0" expanded="false" />
-            <element signature="e#28932#28933#0" expanded="false" />
-            <element signature="e#32159#32160#0" expanded="false" />
-            <element signature="e#32217#32218#0" expanded="false" />
-            <element signature="e#32257#32258#0" expanded="false" />
-            <element signature="e#32350#32351#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thinkinginjava/AAA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Serch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <marker date="1543216147477" expanded="true" signature="330:705" ph="{...}" />
-          </folding>
+        <state relative-caret-position="483">
+          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tqh/argorithms/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="208" column="5" lean-forward="true" selection-start-line="166" selection-start-column="4" selection-end-line="208" selection-end-column="5" />
+        <state relative-caret-position="2323">
+          <caret line="102" column="30" lean-forward="true" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/RSSI2013-05-11-015916.txt" />
+    <entry file="file://$PROJECT_DIR$/src/data/DeepMSCNN.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="2999" column="39" lean-forward="false" selection-start-line="2999" selection-start-column="39" selection-end-line="2999" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/acc_gryo_record.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4071">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/work/DealData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/RSSI_MAG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="69" column="76" lean-forward="false" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/mag_record.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/dataResult.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/rawdata.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/work/DealRawAccGryoData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="48" lean-forward="false" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/rawData_acc_gryo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41048">
+          <caret line="199" column="16" lean-forward="false" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/acc_gryo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="387" column="18" lean-forward="false" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/io/Nio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/socket/ClientKeyBoardListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/socket/ClientMessageLisener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/socket/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/socket/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/socket/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="243" column="29" lean-forward="false" selection-start-line="243" selection-start-column="29" selection-end-line="243" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="338" column="5" lean-forward="true" selection-start-line="338" selection-start-column="5" selection-end-line="338" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/thinkinginjava/AmphibianTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/thinkinginjava/Holder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/Test4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        <state relative-caret-position="184">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/concurrent/CountDownLatch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2267">
-          <caret line="155" column="13" lean-forward="false" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/CyclicBarrierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="115">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tqh/thread/SemaphoreTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="230">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="106" column="16" lean-forward="false" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2323">
+          <caret line="143" column="29" lean-forward="false" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
           <folding>
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>MyCodePractice</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>junit-4.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tqh/contest/Main5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

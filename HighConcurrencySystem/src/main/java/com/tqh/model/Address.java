@@ -1,7 +1,6 @@
 package com.tqh.model;
 
 import java.io.Serializable;
-
 public class Address implements Serializable{
   private String id;
   private String uid;

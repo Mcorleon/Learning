@@ -1,5 +1,7 @@
 package com.tqh.thinkinginjava;
 
+import java.util.ArrayList;
+
 public class Holder<T> {
     private T a;
     private T b;
@@ -9,7 +11,6 @@ public class Holder<T> {
         this.a=a;
         this.b=b;
         this.c=c;
-
     }
     public T getA() {
         return a;
