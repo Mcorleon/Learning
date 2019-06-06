@@ -1,7 +1,5 @@
 package com.tqh.singleton;
 
-
-
 /**
  * 懒汉式，需要时再加载
  * 线程不安全

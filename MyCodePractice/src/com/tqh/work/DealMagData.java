@@ -5,8 +5,8 @@ import java.io.*;
 public class DealMagData {
     public static void main(String[] args) {
         float[][] mag_data=getMagData();
-        File file = new File("src/data/DeepMSCNN.txt");
-        File output = new File("src/data/RSSI_MAG.txt");
+        File file = new File("src/data/cnn_src_mi.txt");
+        File output = new File("src/data/RSSI_MAG5_14.txt");
         try {
             FileReader fileReader = new FileReader(file);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
@@ -18,7 +18,15 @@ public class DealMagData {
             while (line != null) {
 
                 if (line.length() != 0) {
-                    String n=line.substring(line.length()-2,line.length());
+                    String n="";
+                    if(row<=1000){
+                        n=line.substring(line.length()-1,line.length());
+                    }else if(row<=7000){
+                        n=line.substring(line.length()-2,line.length());
+                    }else {
+                        n=line.substring(line.length()-3,line.length());
+                    }
+
                     String newLine=line.substring(0,line.length()-2)+mag_data[row][0]+" "+mag_data[row][1]+" "+mag_data[row][2]+" "+n+"\r\n";
                     bufferedWriter.write(newLine);
                 }
@@ -35,8 +43,8 @@ public class DealMagData {
     }
 
     private static float[][] getMagData() {
-        File file = new File("src/data/mag_record.txt");
-        float[][] data=new float[3000][3];
+        File file = new File("src/data/data_5_14.txt");
+        float[][] data=new float[10000][3];
         try {
             FileReader fileReader = new FileReader(file);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
