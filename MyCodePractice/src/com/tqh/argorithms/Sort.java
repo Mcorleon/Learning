@@ -20,11 +20,10 @@ class  SortArgorithms{
      * 冒泡排序
      */
     public void bubbleSort(int[] array){
-        int temp=0;
         for(int i=array.length-1;i>0 ;i--){
             for(int j=0;j<i ;j++){
                 if(array[j]>array[j+1]){
-                    temp=array[j];
+                    int temp=array[j];
                     array[j]=array[j+1];
                     array[j+1]=temp;
                 }
@@ -37,11 +36,10 @@ class  SortArgorithms{
      * 选择排序是用当前值逐一与后面的比较，交换，选出最小。
      */
     public void selectionSort(int[] array){
-        int temp=0;
         for(int i=0;i<array.length-1;i++){
             for (int j = i+1; j <array.length ; j++) {
                 if(array[i]>array[j]){
-                    temp=array[j];
+                    int temp=array[j];
                     array[j]=array[i];
                     array[i]=temp;
                 }
@@ -53,11 +51,11 @@ class  SortArgorithms{
      * 接近有序时效率最高
      */
     public void insertionSort(int[] array){
-        int temp;
+
         for(int i=0;i<array.length-1 ;i++){
             for(int j=i+1;j>0 ;j--){
                 if(array[j]<array[j-1]){
-                    temp=array[j];
+                    int temp=array[j];
                     array[j]=array[j-1];
                     array[j-1]=temp;
                 }else {
