@@ -37,7 +37,7 @@ class PrintThread implements Runnable{
             synchronized (pre){
                 synchronized (self){
                     count--;
-                    System.out.println(s);
+                    System.out.print(s);
                     self.notify();
                 }
                 try {

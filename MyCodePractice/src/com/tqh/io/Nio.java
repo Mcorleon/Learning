@@ -7,7 +7,7 @@ import java.nio.charset.Charset;
 
 public class Nio {
     public static void main(String[] args){
-        File file=new File("src/data/hhh.txt");
+        File file=new File("src/data/data.txt");
         try {
             //nio read
             FileInputStream inputStream=new FileInputStream(file);
@@ -20,7 +20,7 @@ public class Nio {
 
                 byteBuffer.flip();
                 while (byteBuffer.hasRemaining()){
-                    System.out.println(Charset.forName("UTF-16").decode(byteBuffer));
+                    System.out.println(Charset.forName("UTF-8").decode(byteBuffer));
                 }
                 byteBuffer.compact();
 

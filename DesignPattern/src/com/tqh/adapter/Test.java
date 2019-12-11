@@ -1,5 +1,7 @@
 package com.tqh.adapter;
 
+import java.io.InputStreamReader;
+
 /**
  * @Author: Mcorleon
  * @Date: 18-8-5 10:41

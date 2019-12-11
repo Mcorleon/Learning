@@ -25,14 +25,13 @@ public class Sort_practice {
     }
 
     private void merge(int[] arr, int[] temp, int l, int mid, int r) {
-        int cur=l;
-        int l_end=mid-1;
-        int size=r-l+1;
+        int cur=l,l_end=mid-1,size=r-l+1;
         while (l<=l_end&&mid<=r){
             if(arr[l]<arr[mid]){
                 temp[cur++]=arr[l++];
             }else {
                 temp[cur++]=arr[mid++];
+
             }
         }
         while (l<=l_end){
@@ -41,7 +40,7 @@ public class Sort_practice {
         while (mid<=r){
             temp[cur++]=arr[mid++];
         }
-        for (int i = 0; i <size ; i++) {
+        for(int i=0;i< size;i++){
             arr[r]=temp[r];
             r--;
         }
@@ -72,7 +71,7 @@ public class Sort_practice {
             }
         }
         arr[l]=val;
-        return  l;
+        return l;
     }
 
     public void heapSort(int[] arr){
@@ -80,9 +79,9 @@ public class Sort_practice {
             heapAdjust(arr,i,arr.length);
         }
         for (int i = arr.length-1; i >0 ; i--) {
-            int temp=arr[0];
-            arr[0]=arr[i];
-            arr[i]=temp;
+            int temp=arr[i];
+            arr[i]=arr[0];
+            arr[0]=temp;
             heapAdjust(arr,1,i);
         }
     }
@@ -90,8 +89,8 @@ public class Sort_practice {
     private void heapAdjust(int[] arr, int s, int len) {
         int temp=arr[s-1];
         int largest=0;
-        for (int i = s*2; i <=len ; i*=2) {
-            if(i<len&&arr[i]>arr[i-1]){
+        for (int i = 2*s; i <len ; i*=2) {
+            if(i<len&&arr[i-1]<arr[i]){
                 largest=i;
                 i++;
             }else {
@@ -107,3 +106,4 @@ public class Sort_practice {
         arr[s-1]=temp;
     }
 }
+
