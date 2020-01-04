@@ -5,37 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="079c6eba-931f-4f71-a625-070d67701968" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tqh/contest/DFCF2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/MeituanWorkApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/SMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/service/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/service/WebSocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/service/impl/MailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/resources/jar/commons-codec-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/resources/jar/commons-httpclient-3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/resources/jar/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/resources/templates/cli1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/resources/templates/cli2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/resources/templates/cli3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPattern/src/com/tqh/adapter/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/src/com/tqh/adapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mcorl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/argorithms/PrintThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/argorithms/PrintThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/argorithms/Sort_practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/argorithms/Sort_practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/io/Nio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/io/Nio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tqh/argorithms/ABC_Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tqh/argorithms/ABC_Thread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tqh/argorithms/Sort_practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tqh/argorithms/Sort_practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tqh/io/Nio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tqh/io/Nio.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,18 +35,13 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>===</find>
-      <find>equals</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1RE0lcDkpSYTJyCJNycpwW8wUS2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Ha&#9;FILE&#9;jar://D:/Java/jdk1.8.0_111/src.zip!/java/util/HashMap.java&#10;Concu&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;HashM&#9;PSI&#9;JAVA://java.util.HashMap&#10;LinkedL&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayL&#9;PSI&#9;JAVA://java.util.ArrayList&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;AtomicInteger&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -81,7 +50,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -112,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Nio">
+  <component name="RunManager" selected="Application.Sort_practice">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -147,22 +116,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aaa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.aaa" />
+    <configuration name="Sort_practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tqh.argorithms.Sort_practice" />
       <module name="MyCodePractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tqh.contest.*" />
+          <option name="PATTERN" value="com.tqh.argorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -302,18 +271,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.asd" />
-      <item itemvalue="Application.aaa" />
       <item itemvalue="Application.dfs" />
       <item itemvalue="Application.ABC_Thread" />
       <item itemvalue="Application.Nio" />
+      <item itemvalue="Application.Sort_practice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort_practice" />
         <item itemvalue="Application.Nio" />
         <item itemvalue="Application.ABC_Thread" />
         <item itemvalue="Application.dfs" />
         <item itemvalue="Application.asd" />
-        <item itemvalue="Application.aaa" />
       </list>
     </recent_temporary>
   </component>
@@ -355,17 +324,10 @@
       <workItem from="1569217404105" duration="282000" />
       <workItem from="1569585186043" duration="28000" />
       <workItem from="1574946048350" duration="1348000" />
+      <workItem from="1576142107696" duration="8685000" />
+      <workItem from="1577515040167" duration="5105000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
