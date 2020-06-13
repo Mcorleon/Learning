@@ -9,44 +9,35 @@ import java.util.Scanner;
 public class Main8 {
     public static int count=0;
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int N= sc.nextInt();
-        int M= sc.nextInt();
-        int[][] arr=new int[N][M];
-        for (int i = 0; i <N ; i++) {
-            for (int j = 0; j <M ; j++) {
-                arr[i][j]=sc.nextInt();
-            }
-        }
-        int x=sc.nextInt();
-        int y=sc.nextInt();
-        int z=sc.nextInt();
-        int w=sc.nextInt();
-
-        findPath(x,y,z,w,N,M,arr);
-        System.out.println(count);
+        String s="-1(3,2(0,-1))";
 
 
     }
 
-    private static void findPath(int x, int y, int z, int w,int N,int M,int[][] arr) {
-        if(x==z&&y==w){
-            count++;
-            return;
-        }
-        int val=arr[x][y];
+    private static TreeNode helper( String s) {
+        int val=0;
+        TreeNode node=null;
+        if(s.charAt(0)=='-'){
+            val=-(s.charAt(1)-'0');
+            node=new TreeNode(val);
+            if(s.length()==2||s.charAt(2)!='('){
+                return node;
+            }
+            if(s.charAt(2)=='('){
 
-        if(y>0&&arr[x][y-1]>val){
-            findPath(x,y-1,z,w,N,M,arr);
+            }
+        }else {
+            val=s.charAt(0)-'0';
         }
-        if(y<M-1&&arr[x][y+1]>val){
-            findPath(x,y+1,z,w,N,M,arr);
-        }
-        if(x>0&&arr[x-1][y]>val){
-            findPath(x-1,y,z,w,N,M,arr);
-        }
-        if(x<N-1&&arr[x+1][y]>val){
-            findPath(x+1,y,z,w,N,M,arr);
-        }
+    }
+}
+
+class TreeNode{
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    public TreeNode(int val) {
+        this.val = val;
     }
 }

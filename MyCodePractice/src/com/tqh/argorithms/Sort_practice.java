@@ -1,7 +1,6 @@
 package com.tqh.argorithms;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.*;
 
 /**
  * @Author Mcorleon
@@ -104,6 +103,9 @@ public class Sort_practice {
             }
         }
         arr[s-1]=val;
+
     }
+
+
 }
 

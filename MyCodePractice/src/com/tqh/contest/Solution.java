@@ -20,6 +20,7 @@ public class Solution {
         ListNode node2=new ListNode(5);
         node1.next=node2;
         reverseBetween(node1,1,2);
+        Score score=new Score.Builder(105,125,132).physics(95).chemistry(90).history(60).build();
     }
 
     public static ListNode reverseBetween(ListNode head, int m, int n) {
@@ -55,4 +56,6 @@ public class Solution {
         String s="d";
         return pre;
     }
+
+
 }

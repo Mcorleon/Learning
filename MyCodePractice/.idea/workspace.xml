@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="079c6eba-931f-4f71-a625-070d67701968" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mcorl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/controller/KafkaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/service/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/service/KafkaConsumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meituan_work/src/main/java/com/example/demo/service/KafkaSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/argorithms/Sort_practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/argorithms/Sort_practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/contest/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/contest/Main3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/contest/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyCodePractice/com/tqh/contest/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tqh/argorithms/Sort_practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tqh/argorithms/Sort_practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tqh/contest/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tqh/contest/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tqh/contest/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tqh/contest/Main8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tqh/contest/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tqh/contest/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meituan_work/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../meituan_work/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meituan_work/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../meituan_work/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +58,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Dubbo_SecKill" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -81,20 +93,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sort_practice">
+  <component name="RunManager" selected="Application.Main3">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ABC_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tqh.argorithms.ABC_Thread" />
+    <configuration name="Host" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.Host" />
+      <module name="MyCodePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tqh.contest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.Main3" />
       <module name="MyCodePractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tqh.argorithms.*" />
+          <option name="PATTERN" value="com.tqh.contest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,22 +161,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="asd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.asd" />
-      <module name="MyCodePractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tqh.contest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.dfs" />
+    <configuration name="asda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tqh.contest.asda" />
       <module name="MyCodePractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -270,19 +281,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.asd" />
-      <item itemvalue="Application.dfs" />
-      <item itemvalue="Application.ABC_Thread" />
       <item itemvalue="Application.Nio" />
       <item itemvalue="Application.Sort_practice" />
+      <item itemvalue="Application.asda" />
+      <item itemvalue="Application.Host" />
+      <item itemvalue="Application.Main3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Host" />
+        <item itemvalue="Application.asda" />
         <item itemvalue="Application.Sort_practice" />
         <item itemvalue="Application.Nio" />
-        <item itemvalue="Application.ABC_Thread" />
-        <item itemvalue="Application.dfs" />
-        <item itemvalue="Application.asd" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +336,15 @@
       <workItem from="1569585186043" duration="28000" />
       <workItem from="1574946048350" duration="1348000" />
       <workItem from="1576142107696" duration="8685000" />
-      <workItem from="1577515040167" duration="5105000" />
+      <workItem from="1577515040167" duration="5107000" />
+      <workItem from="1579237363515" duration="2760000" />
+      <workItem from="1580727736304" duration="15041000" />
+      <workItem from="1582523097308" duration="2765000" />
+      <workItem from="1585710204621" duration="70000" />
+      <workItem from="1587537975288" duration="1137000" />
+      <workItem from="1588053391069" duration="600000" />
+      <workItem from="1588925810128" duration="90000" />
+      <workItem from="1589254316833" duration="2617000" />
     </task>
     <servers />
   </component>
@@ -344,6 +363,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/tqh/contest/Main3.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
